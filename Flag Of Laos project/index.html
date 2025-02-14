@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #external h1 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: normal;
+            font-size: 5rem;
+            left: 50px;
+            text-align: center;
+            margin: 0;
+            
+        }
+        
+        #external {
+            
+            background-color: darkred;
+            height: 600px;
+            width: 900px;
+            position: relative;
+            left: 100px;
+            top:100px;
+            
+        }
+
+        #internal {
+            background-color: darkblue;
+            height: 300px;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+            top: 150px;
+            right: 0px;
+        }
+
+        #circle{
+            background-color: white;
+            border-radius: 50%;
+            z-index: 2;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            top: 50px;
+            left: 350px;
+        }
+
+        #circle > p {
+            font-size: 5rem;
+            color: black;
+            margin: 0;
+            font-weight: normal;
+
+        }
+    </style>
+</head>
+<body>
+    <div id= "external">
+        <h1>The Flag<h1>
+        <div id= "internal">
+            <div id= "circle">
+                  <p>of Laos</p>  
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
