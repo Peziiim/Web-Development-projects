@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+    --white: #F0F1EC;
+    --Red: #E72F24;
+    --Black: #232629;
+    --Blue: #004592;
+    --Yellow: #F9D01E;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px ;
+      gap: 9px;
+      width: 748px;
+      height: 746px;
+      background-color: #000;
+    }
+
+    .s1 {
+      grid-column-start: 1;
+      background-color:var(--Red);
+    }
+
+    .s2 {
+      grid-column-start: 2;
+      grid-column-end: 5;
+      background-color:var(--white) ;
+
+    }
+
+    .s3 {
+      grid-column-start: 1;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      background-color:var(--white) ;
+
+    }
+
+    
+    .s4{
+      grid-column-start: 1;
+      grid-row-start: 4;
+      background-color:var(--white);
+
+
+    }
+    
+    .s5 {
+      grid-column-start: 2;
+      grid-row-start: 2;
+      grid-row-end: 4;
+      grid-column-end: 4;
+      background-color:var(--white) ;
+
+
+    }
+
+    .s6 {
+      grid-column-start: 4;
+      grid-row-start: 2;
+      background-color: var(--Blue);
+ 
+    }
+
+    .s7 {
+      grid-column-start: 2;
+      grid-row-start: 4;
+      background-color: var(--Yellow);
+
+    }
+
+    .s8 {
+      grid-column-start: 3;
+      grid-row-start: 4;
+      background-color: var(--Black);
+    }
+
+    .s9 {
+      grid-column-start: 4;
+      grid-row-start: 3;
+      grid-row-end: 5;
+      background-color: var(--white);
+
+    }
+   
+   
+  </style>
+</head>
+  <div class="container">
+    <div class="s1"></div>
+    <div class="s2"></div>
+    <div class="s3" ></div>
+    <div class="s4"></div>
+    <div class="s5"></div>
+    <div class="s6" ></div>
+    <div class="s7"></div>
+    <div class="s8"></div>
+    <div class="s9"></div>
+  </div>
+<body>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
