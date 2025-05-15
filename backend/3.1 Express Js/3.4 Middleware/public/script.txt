@@ -1,0 +1,144 @@
+
+REMOTE_USER="eoliveira"
+REMOTE_HOST="34.10.28.8"
+LOG_FILE="monitoramento.log"
+
+# Thresholds (% ou MB)
+THRESHOLD_CPU=80
+THRESHOLD_MEM=80
+THRESHOLD_DISK=90
+
+log_message() {
+    local message="$1"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $message" | tee -a "$LOG_FILE"
+}
+
+# Função para verificar se um valor é numérico
+is_numeric() {
+    local value="$1"
+    if [[ "$value" =~ ^[0-9]+(\.[0-9]+)?$ ]]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+# Função para calcular o uso da CPU
+get_cpu_usage() {
+    local ssh_cmd="$1"
+    # Lê /proc/stat duas vezes com intervalo de 1 segundo
+    local stat1=$($ssh_cmd "cat /proc/stat | grep '^cpu '")
+    sleep 1
+    local stat2=$($ssh_cmd "cat /proc/stat | grep '^cpu '")
+    if [[ -z "$stat1" || -z "$stat2" ]]; then
+        echo "0"
+        return
+    fi
+    # Extrai valores
+    local cpu1=($stat1)
+    local cpu2=($stat2)
+    local idle1=${cpu1[4]}
+    local total1=$((${cpu1[1]} + ${cpu1[2]} + ${cpu1[3]} + ${cpu1[4]}))
+    local idle2=${cpu2[4]}
+    local total2=$((${cpu2[1]} + ${cpu2[2]} + ${cpu2[3]} + ${cpu2[4]}))
+    # Calcula uso
+    local usage=$(echo "scale=2; 100 * (1 - ($idle2 - $idle1) / ($total2 - $total1))" | bc -l)
+    echo "$usage"
+}
+
+# === FUNÇÃO DE MONITORAMENTO ===
+monitor() {
+    # Verifica permissões do log
+    if [[ ! -f "$LOG_FILE" ]]; then
+        touch "$LOG_FILE" 2>/dev/null || { echo "Erro: Não foi possível criar o arquivo de log $LOG_FILE"; exit 1; }
+    fi
+    if [[ ! -w "$LOG_FILE" ]]; then
+        echo "Erro: Sem permissão para escrever em $LOG_FILE"
+        exit 1
+    fi
+
+    log_message "Iniciando monitoramento de $REMOTE_HOST"
+
+    SSH_CMD="ssh ${REMOTE_USER}@${REMOTE_HOST}"
+
+    # Testa conexão SSH
+    if ! $SSH_CMD "echo test" >/dev/null 2>&1; then
+        log_message "ERRO: Falha ao conectar via SSH a ${REMOTE_USER}@${REMOTE_HOST}"
+        exit 1
+    fi
+
+    # Coleta métricas
+    CPU=$(get_cpu_usage "$SSH_CMD")
+    if ! is_numeric "$CPU"; then
+        log_message "ERRO: Falha ao obter uso da CPU"
+        CPU=0
+    fi
+
+    MEM=$($SSH_CMD "free | awk '/Mem:/ {printf(\"%.0f\", ((\$2 - \$7) / \$2) * 100)}'") # Usa 'available' para cálculo mais preciso
+    if ! is_numeric "$MEM"; then
+        log_message "ERRO: Falha ao obter uso da Memória"
+        MEM=0
+    fi
+
+    DISK=$($SSH_CMD "df -h / | awk 'NR==2 {print \$5}' | tr -d '%'")
+    if ! is_numeric "$DISK"; then
+        log_message "ERRO: Falha ao obter uso do Disco"
+        DISK=0
+    fi
+
+    WEB_STATUS_HTTPD=$($SSH_CMD "systemctl is-active httpd 2>/dev/null || echo 'inactive'")
+    WEB_STATUS_NGINX=$($SSH_CMD "systemctl is-active nginx 2>/dev/null || echo 'inactive'")
+    if [[ "$WEB_STATUS_HTTPD" == "active" || "$WEB_STATUS_NGINX" == "active" ]]; then
+        WEB_STATUS="active"
+    else
+        WEB_STATUS="inactive"
+    fi
+
+    DB_STATUS_MARIADB=$($SSH_CMD "systemctl is-active mariadb 2>/dev/null || echo 'inactive'")
+    DB_STATUS_MYSQL=$($SSH_CMD "systemctl is-active mysql 2>/dev/null || echo 'inactive'")
+    if [[ "$DB_STATUS_MARIADB" == "active" || "$DB_STATUS_MYSQL" == "active" ]]; then
+        DB_STATUS="active"
+    else
+        DB_STATUS="inactive"
+    fi
+
+    ALERT=0
+
+    # Verificações com thresholds
+    if (( $(echo "$CPU > $THRESHOLD_CPU" | bc -l) )); then
+        log_message "ALERTA: CPU alta: ${CPU}% (limite: $THRESHOLD_CPU%)"
+        ALERT=1
+    fi
+
+    if (( $(echo "$MEM > $THRESHOLD_MEM" | bc -l) )); then
+        log_message "ALERTA: Memória alta: ${MEM}% (limite: $THRESHOLD_MEM%)"
+        ALERT=1
+    fi
+
+    if (( $(echo "$DISK > $THRESHOLD_DISK" | bc -l) )); then
+        log_message "ALERTA: Disco cheio: ${DISK}% (limite: $THRESHOLD_DISK%)"
+        ALERT=1
+    fi
+
+    if [[ "$WEB_STATUS" != "active" ]]; then
+        log_message "ALERTA: Webserver OFF: httpd=$WEB_STATUS_HTTPD, nginx=$WEB_STATUS_NGINX"
+        ALERT=1
+    fi
+
+    if [[ "$DB_STATUS" != "active" ]]; then
+        log_message "ALERTA: Banco de dados OFF: mariadb=$DB_STATUS_MARIADB, mysql=$DB_STATUS_MYSQL"
+        ALERT=1
+    fi
+
+    # Resumo do status
+    if [[ $ALERT -eq 1 ]]; then
+        log_message ">>> Problemas detectados, verifique os logs."
+    else
+        log_message "OK - Nenhum alerta detectado."
+    fi
+
+    log_message "STATUS: CPU=${CPU}%, Memória=${MEM}%, Disco=${DISK}%, Webserver=${WEB_STATUS}, Banco de Dados=${DB_STATUS}"
+}
+
+# === EXECUÇÃO ===
+monitor

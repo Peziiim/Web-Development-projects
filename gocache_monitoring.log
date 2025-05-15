@@ -1,0 +1,325 @@
+2025-05-14 11:13:32 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 11:13:32 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 11:13:32 - INFO - Portas monitoradas: 80, 443
+2025-05-14 11:13:32 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:13:32 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:13:33 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 11:13:33 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:13:33 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:13:33 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:13:33 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:13:35 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 11:13:35 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:13:35 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:13:35 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:13:35 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:14:18 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 11:14:28 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 11:14:28 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 11:14:28 - INFO - Portas monitoradas: 80, 443
+2025-05-14 11:14:28 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:14:28 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:14:29 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 11:14:29 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:14:29 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:14:29 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:14:29 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:14:30 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 11:14:31 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:14:31 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:14:31 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:14:31 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:15:31 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:15:31 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:15:32 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 11:15:32 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:15:32 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:15:32 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:15:32 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:15:33 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 11:15:33 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:15:33 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:15:33 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:15:33 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:16:33 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:16:33 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:16:34 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 11:16:34 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:16:34 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:16:34 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:16:34 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:16:35 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 11:16:35 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:16:36 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:16:36 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:16:36 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:17:36 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:17:36 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:17:37 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 11:17:37 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:17:37 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:17:37 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:17:37 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:17:38 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 11:17:38 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:17:38 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:17:38 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:17:38 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:18:05 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 11:29:11 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 11:29:11 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 11:29:11 - INFO - Portas monitoradas: 80, 443
+2025-05-14 11:29:11 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:29:11 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:29:11 - WARNING - ALERTA: ICMP bloqueado para 170.82.173.10
+2025-05-14 11:29:11 - ERROR - Erro ao executar traceroute para IP 170.82.173.10: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:29:11 - INFO - Traceroute para 170.82.173.10:
+Falha ao executar traceroute: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:29:11 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:29:11 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:29:11 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:29:11 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:29:11 - WARNING - ALERTA: ICMP bloqueado para 170.82.174.10
+2025-05-14 11:29:11 - ERROR - Erro ao executar traceroute para IP 170.82.174.10: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:29:11 - INFO - Traceroute para 170.82.174.10:
+Falha ao executar traceroute: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:29:11 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:29:11 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:29:11 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:29:11 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:30:11 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:30:11 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:30:11 - WARNING - ALERTA: ICMP bloqueado para 170.82.173.10
+2025-05-14 11:30:11 - ERROR - Erro ao executar traceroute para IP 170.82.173.10: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:30:11 - INFO - Traceroute para 170.82.173.10:
+Falha ao executar traceroute: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:30:11 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:30:11 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:30:11 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:30:11 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:30:11 - WARNING - ALERTA: ICMP bloqueado para 170.82.174.10
+2025-05-14 11:30:11 - ERROR - Erro ao executar traceroute para IP 170.82.174.10: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:30:11 - INFO - Traceroute para 170.82.174.10:
+Falha ao executar traceroute: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:30:11 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:30:11 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:30:11 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:30:11 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:30:32 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 11:32:03 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 11:32:03 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 11:32:03 - INFO - Portas monitoradas: 80, 443
+2025-05-14 11:32:03 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 11:32:03 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 11:32:03 - WARNING - ALERTA: ICMP bloqueado para 170.82.173.10
+2025-05-14 11:32:03 - ERROR - Erro ao executar traceroute para IP 170.82.173.10: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:32:03 - INFO - Traceroute para 170.82.173.10:
+Falha ao executar traceroute: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:32:03 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:32:04 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 11:32:04 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 11:32:04 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 11:32:04 - WARNING - ALERTA: ICMP bloqueado para 170.82.174.10
+2025-05-14 11:32:04 - ERROR - Erro ao executar traceroute para IP 170.82.174.10: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:32:04 - INFO - Traceroute para 170.82.174.10:
+Falha ao executar traceroute: [WinError 2] O sistema não pode encontrar o arquivo especificado
+2025-05-14 11:32:04 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:32:04 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 11:32:04 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 11:32:04 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 11:32:05 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 12:23:00 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 12:23:00 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 12:23:00 - INFO - Portas monitoradas: 80, 443
+2025-05-14 12:23:00 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:23:00 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:23:01 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:23:01 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:23:01 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:23:01 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:23:01 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:23:02 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:23:03 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:23:03 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:23:03 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 12:23:03 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 12:24:03 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:24:03 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:24:04 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:24:04 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:24:04 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:24:04 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:24:04 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:24:05 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:24:05 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:24:05 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:24:05 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 12:24:05 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 12:24:38 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 12:28:34 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 12:28:34 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 12:28:34 - INFO - Portas monitoradas: 80, 443
+2025-05-14 12:28:34 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:28:34 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:28:35 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:28:35 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:28:35 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:28:35 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:28:35 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:28:36 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:28:36 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:28:37 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:28:37 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 12:28:37 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 12:29:37 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:29:37 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:29:38 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:29:38 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:29:38 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:29:38 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:29:38 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:29:39 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:29:39 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:29:39 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:29:39 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 12:29:39 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 12:30:39 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:30:39 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:30:40 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:30:40 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:30:40 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:30:40 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:30:40 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:30:41 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:30:41 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:30:41 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:30:41 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 12:30:41 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 12:31:36 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 12:34:26 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 12:34:26 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 12:34:26 - INFO - Portas monitoradas: 80, 443
+2025-05-14 12:34:26 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:34:26 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:34:27 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:34:27 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:34:27 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:34:37 - INFO - Traceroute para 170.82.173.10:
+
+Rastreando a rota para 170.82.173.10 com no m ximo 30 saltos
+
+  1     2 ms     1 ms     1 ms  192.168.15.1 
+  2     *        *        *     Esgotado o tempo limite do pedido.
+  3     9 ms     6 ms     7 ms  201.1.224.76 
+  4     *        *        *     Esgotado o tempo limite do pedido.
+  5    14 ms    15 ms    15 ms  187.100.60.139 
+  6     *        *        *     Esgotado o tempo limite do pedido.
+  7    11 ms    15 ms    15 ms  189.125.184.97 
+  8    17 ms    12 ms    15 ms  200.189.213.42 
+  9    12 ms    15 ms    15 ms  8.243.148.86 
+ 10    12 ms    15 ms    16 ms  170.82.173.10 
+
+Rastreamento conclu¡do.
+
+2025-05-14 12:34:37 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:34:37 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:34:38 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:34:39 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:34:39 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:34:50 - INFO - Traceroute para 170.82.174.10:
+
+Rastreando a rota para 170.82.174.10 com no m ximo 30 saltos
+
+  1     1 ms     2 ms     2 ms  192.168.15.1 
+  2     *        *        *     Esgotado o tempo limite do pedido.
+  3   103 ms     7 ms     6 ms  201.1.224.76 
+  4     *        *        *     Esgotado o tempo limite do pedido.
+  5   109 ms    15 ms    15 ms  187.100.60.91 
+  6     *        *        *     Esgotado o tempo limite do pedido.
+  7    10 ms    15 ms    15 ms  200.25.56.80 
+  8    16 ms    14 ms    15 ms  200.25.51.65 
+  9    16 ms    15 ms    15 ms  200.25.51.136 
+ 10    16 ms    14 ms    15 ms  200.25.56.66 
+ 11    12 ms    23 ms    15 ms  170.82.174.10 
+
+Rastreamento conclu¡do.
+
+2025-05-14 12:34:50 - INFO - Monitoramento concluído para 170.82.174.10
+
+2025-05-14 12:34:50 - INFO - Aguardando próximo ciclo de monitoramento (60 segundos)
+2025-05-14 12:35:15 - INFO - Monitoramento interrompido pelo usuário
+2025-05-14 12:37:19 - INFO - === Iniciando monitoramento de IPs da GoCache ===
+2025-05-14 12:37:19 - INFO - IPs monitorados: 170.82.173.10, 170.82.174.10
+2025-05-14 12:37:19 - INFO - Portas monitoradas: 80, 443
+2025-05-14 12:37:19 - INFO - Iniciando ciclo de monitoramento
+2025-05-14 12:37:19 - INFO - Verificando IP: 170.82.173.10
+2025-05-14 12:37:21 - INFO - ICMP OK para 170.82.173.10
+2025-05-14 12:37:21 - INFO - Porta 80 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:37:21 - INFO - Porta 443 OK em 170.82.173.10 - Status HTTP: 200
+2025-05-14 12:37:31 - INFO - Rota 
+Rastreando a rota para 170.82.173.10 com no m ximo 30 saltos
+
+  1     2 ms     2 ms     1 ms  192.168.15.1 
+  2     *        *        *     Esgotado o tempo limite do pedido.
+  3    10 ms     7 ms     7 ms  201.1.224.76 
+  4     *        *        *     Esgotado o tempo limite do pedido.
+  5     9 ms    15 ms    15 ms  187.100.60.139 
+  6     *        *        *     Esgotado o tempo limite do pedido.
+  7    29 ms    16 ms    15 ms  189.125.184.97 
+  8    20 ms    23 ms    35 ms  200.189.213.42 
+  9    17 ms    15 ms    14 ms  8.243.148.86 
+ 10    15 ms    14 ms    15 ms  170.82.173.10 
+
+Rastreamento conclu¡do.
+
+2025-05-14 12:37:31 - INFO - Traceroute para 170.82.173.10:
+
+Rastreando a rota para 170.82.173.10 com no m ximo 30 saltos
+
+  1     2 ms     2 ms     1 ms  192.168.15.1 
+  2     *        *        *     Esgotado o tempo limite do pedido.
+  3    10 ms     7 ms     7 ms  201.1.224.76 
+  4     *        *        *     Esgotado o tempo limite do pedido.
+  5     9 ms    15 ms    15 ms  187.100.60.139 
+  6     *        *        *     Esgotado o tempo limite do pedido.
+  7    29 ms    16 ms    15 ms  189.125.184.97 
+  8    20 ms    23 ms    35 ms  200.189.213.42 
+  9    17 ms    15 ms    14 ms  8.243.148.86 
+ 10    15 ms    14 ms    15 ms  170.82.173.10 
+
+Rastreamento conclu¡do.
+
+2025-05-14 12:37:31 - INFO - Monitoramento concluído para 170.82.173.10
+
+2025-05-14 12:37:31 - INFO - Verificando IP: 170.82.174.10
+2025-05-14 12:37:32 - INFO - ICMP OK para 170.82.174.10
+2025-05-14 12:37:32 - INFO - Porta 80 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:37:32 - INFO - Porta 443 OK em 170.82.174.10 - Status HTTP: 200
+2025-05-14 12:37:37 - INFO - Monitoramento interrompido pelo usuário

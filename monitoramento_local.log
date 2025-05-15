@@ -1,0 +1,25 @@
+2025-05-14 13:17:22 - INFO - === Iniciando monitoramento local ===
+2025-05-14 13:17:23 - INFO - Uso de CPU atual: 29.1%
+2025-05-14 13:17:23 - INFO - Uso de Memória atual: 74.4%
+2025-05-14 13:17:23 - INFO - Uso de Disco atual: 97.7%
+2025-05-14 13:17:23 - WARNING - ALERTA: Uso de Disco alto: 97.7%
+2025-05-14 13:17:23 - INFO - === Monitoramento concluído ===
+
+2025-05-14 13:18:23 - INFO - === Iniciando monitoramento local ===
+2025-05-14 13:18:24 - INFO - Uso de CPU atual: 9.1%
+2025-05-14 13:18:24 - INFO - Uso de Memória atual: 73.8%
+2025-05-14 13:18:24 - INFO - Uso de Disco atual: 97.7%
+2025-05-14 13:18:24 - WARNING - ALERTA: Uso de Disco alto: 97.7%
+2025-05-14 13:18:24 - INFO - === Monitoramento concluído ===
+
+2025-05-14 13:18:25 - INFO - Monitoramento encerrado pelo usuário.
+2025-05-14 14:30:22 - INFO - === Iniciando monitoramento local ===
+2025-05-14 14:30:23 - INFO - Uso de CPU atual: 10.5%
+2025-05-14 14:30:23 - INFO - Uso de Memória atual: 79.3%
+2025-05-14 14:30:23 - INFO - Uso de Disco atual: 97.5%
+2025-05-14 14:30:23 - WARNING - ALERTA: Uso de Disco alto: 97.5%
+2025-05-14 14:30:25 - ERROR - ALERTA: Webserver (porta 80) está INATIVO!
+2025-05-14 14:30:25 - INFO - MySQL (porta 3306) está ATIVO.
+2025-05-14 14:30:25 - INFO - === Monitoramento concluído ===
+
+2025-05-14 14:31:07 - INFO - Monitoramento encerrado pelo usuário.
